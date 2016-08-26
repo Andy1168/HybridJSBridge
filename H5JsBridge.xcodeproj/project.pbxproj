@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDEE5C11D7032DC00DB079F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C01D7032DC00DB079F /* AppDelegate.swift */; };
+		4CDEE5C31D7032DC00DB079F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C21D7032DC00DB079F /* ViewController.swift */; };
+		4CDEE5C61D7032DC00DB079F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C41D7032DC00DB079F /* Main.storyboard */; };
+		4CDEE5C81D7032DC00DB079F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C71D7032DC00DB079F /* Assets.xcassets */; };
+		4CDEE5CB1D7032DC00DB079F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C91D7032DC00DB079F /* LaunchScreen.storyboard */; };
+		4CDEE5D61D7032DC00DB079F /* H5JsBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5D51D7032DC00DB079F /* H5JsBridgeTests.swift */; };
+		4CDEE5E11D7032DC00DB079F /* H5JsBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5E01D7032DC00DB079F /* H5JsBridgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDEE5D21D7032DC00DB079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDEE5B51D7032DC00DB079F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDEE5BC1D7032DC00DB079F;
+			remoteInfo = H5JsBridge;
+		};
+		4CDEE5DD1D7032DC00DB079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDEE5B51D7032DC00DB079F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDEE5BC1D7032DC00DB079F;
+			remoteInfo = H5JsBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDEE5BD1D7032DC00DB079F /* H5JsBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H5JsBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDEE5C01D7032DC00DB079F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CDEE5C21D7032DC00DB079F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CDEE5C51D7032DC00DB079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDEE5C71D7032DC00DB079F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDEE5CA1D7032DC00DB079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDEE5CC1D7032DC00DB079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDEE5D11D7032DC00DB079F /* H5JsBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H5JsBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDEE5D51D7032DC00DB079F /* H5JsBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H5JsBridgeTests.swift; sourceTree = "<group>"; };
+		4CDEE5D71D7032DC00DB079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDEE5DC1D7032DC00DB079F /* H5JsBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H5JsBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDEE5E01D7032DC00DB079F /* H5JsBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H5JsBridgeUITests.swift; sourceTree = "<group>"; };
+		4CDEE5E21D7032DC00DB079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDEE5BA1D7032DC00DB079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDEE5CE1D7032DC00DB079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDEE5D91D7032DC00DB079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDEE5B41D7032DC00DB079F = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5BF1D7032DC00DB079F /* H5JsBridge */,
+				4CDEE5D41D7032DC00DB079F /* H5JsBridgeTests */,
+				4CDEE5DF1D7032DC00DB079F /* H5JsBridgeUITests */,
+				4CDEE5BE1D7032DC00DB079F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDEE5BE1D7032DC00DB079F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5BD1D7032DC00DB079F /* H5JsBridge.app */,
+				4CDEE5D11D7032DC00DB079F /* H5JsBridgeTests.xctest */,
+				4CDEE5DC1D7032DC00DB079F /* H5JsBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDEE5BF1D7032DC00DB079F /* H5JsBridge */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5C01D7032DC00DB079F /* AppDelegate.swift */,
+				4CDEE5C21D7032DC00DB079F /* ViewController.swift */,
+				4CDEE5C41D7032DC00DB079F /* Main.storyboard */,
+				4CDEE5C71D7032DC00DB079F /* Assets.xcassets */,
+				4CDEE5C91D7032DC00DB079F /* LaunchScreen.storyboard */,
+				4CDEE5CC1D7032DC00DB079F /* Info.plist */,
+			);
+			path = H5JsBridge;
+			sourceTree = "<group>";
+		};
+		4CDEE5D41D7032DC00DB079F /* H5JsBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5D51D7032DC00DB079F /* H5JsBridgeTests.swift */,
+				4CDEE5D71D7032DC00DB079F /* Info.plist */,
+			);
+			path = H5JsBridgeTests;
+			sourceTree = "<group>";
+		};
+		4CDEE5DF1D7032DC00DB079F /* H5JsBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5E01D7032DC00DB079F /* H5JsBridgeUITests.swift */,
+				4CDEE5E21D7032DC00DB079F /* Info.plist */,
+			);
+			path = H5JsBridgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDEE5BC1D7032DC00DB079F /* H5JsBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDEE5E51D7032DC00DB079F /* Build configuration list for PBXNativeTarget "H5JsBridge" */;
+			buildPhases = (
+				4CDEE5B91D7032DC00DB079F /* Sources */,
+				4CDEE5BA1D7032DC00DB079F /* Frameworks */,
+				4CDEE5BB1D7032DC00DB079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = H5JsBridge;
+			productName = H5JsBridge;
+			productReference = 4CDEE5BD1D7032DC00DB079F /* H5JsBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDEE5D01D7032DC00DB079F /* H5JsBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDEE5E81D7032DC00DB079F /* Build configuration list for PBXNativeTarget "H5JsBridgeTests" */;
+			buildPhases = (
+				4CDEE5CD1D7032DC00DB079F /* Sources */,
+				4CDEE5CE1D7032DC00DB079F /* Frameworks */,
+				4CDEE5CF1D7032DC00DB079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDEE5D31D7032DC00DB079F /* PBXTargetDependency */,
+			);
+			name = H5JsBridgeTests;
+			productName = H5JsBridgeTests;
+			productReference = 4CDEE5D11D7032DC00DB079F /* H5JsBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDEE5DB1D7032DC00DB079F /* H5JsBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDEE5EB1D7032DC00DB079F /* Build configuration list for PBXNativeTarget "H5JsBridgeUITests" */;
+			buildPhases = (
+				4CDEE5D81D7032DC00DB079F /* Sources */,
+				4CDEE5D91D7032DC00DB079F /* Frameworks */,
+				4CDEE5DA1D7032DC00DB079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDEE5DE1D7032DC00DB079F /* PBXTargetDependency */,
+			);
+			name = H5JsBridgeUITests;
+			productName = H5JsBridgeUITests;
+			productReference = 4CDEE5DC1D7032DC00DB079F /* H5JsBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDEE5B51D7032DC00DB079F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "顶尖旅思";
+				TargetAttributes = {
+					4CDEE5BC1D7032DC00DB079F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4CDEE5D01D7032DC00DB079F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CDEE5BC1D7032DC00DB079F;
+					};
+					4CDEE5DB1D7032DC00DB079F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CDEE5BC1D7032DC00DB079F;
+					};
+				};
+			};
+			buildConfigurationList = 4CDEE5B81D7032DC00DB079F /* Build configuration list for PBXProject "H5JsBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDEE5B41D7032DC00DB079F;
+			productRefGroup = 4CDEE5BE1D7032DC00DB079F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDEE5BC1D7032DC00DB079F /* H5JsBridge */,
+				4CDEE5D01D7032DC00DB079F /* H5JsBridgeTests */,
+				4CDEE5DB1D7032DC00DB079F /* H5JsBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDEE5BB1D7032DC00DB079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDEE5CB1D7032DC00DB079F /* LaunchScreen.storyboard in Resources */,
+				4CDEE5C81D7032DC00DB079F /* Assets.xcassets in Resources */,
+				4CDEE5C61D7032DC00DB079F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDEE5CF1D7032DC00DB079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDEE5DA1D7032DC00DB079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDEE5B91D7032DC00DB079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDEE5C31D7032DC00DB079F /* ViewController.swift in Sources */,
+				4CDEE5C11D7032DC00DB079F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDEE5CD1D7032DC00DB079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDEE5D61D7032DC00DB079F /* H5JsBridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDEE5D81D7032DC00DB079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDEE5E11D7032DC00DB079F /* H5JsBridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDEE5D31D7032DC00DB079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDEE5BC1D7032DC00DB079F /* H5JsBridge */;
+			targetProxy = 4CDEE5D21D7032DC00DB079F /* PBXContainerItemProxy */;
+		};
+		4CDEE5DE1D7032DC00DB079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDEE5BC1D7032DC00DB079F /* H5JsBridge */;
+			targetProxy = 4CDEE5DD1D7032DC00DB079F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDEE5C41D7032DC00DB079F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDEE5C51D7032DC00DB079F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CDEE5C91D7032DC00DB079F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDEE5CA1D7032DC00DB079F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDEE5E31D7032DC00DB079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CDEE5E41D7032DC00DB079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDEE5E61D7032DC00DB079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = H5JsBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dingjian.H5JsBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CDEE5E71D7032DC00DB079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = H5JsBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dingjian.H5JsBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CDEE5E91D7032DC00DB079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = H5JsBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dingjian.H5JsBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H5JsBridge.app/H5JsBridge";
+			};
+			name = Debug;
+		};
+		4CDEE5EA1D7032DC00DB079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = H5JsBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dingjian.H5JsBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H5JsBridge.app/H5JsBridge";
+			};
+			name = Release;
+		};
+		4CDEE5EC1D7032DC00DB079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = H5JsBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dingjian.H5JsBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = H5JsBridge;
+			};
+			name = Debug;
+		};
+		4CDEE5ED1D7032DC00DB079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = H5JsBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dingjian.H5JsBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = H5JsBridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDEE5B81D7032DC00DB079F /* Build configuration list for PBXProject "H5JsBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDEE5E31D7032DC00DB079F /* Debug */,
+				4CDEE5E41D7032DC00DB079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDEE5E51D7032DC00DB079F /* Build configuration list for PBXNativeTarget "H5JsBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDEE5E61D7032DC00DB079F /* Debug */,
+				4CDEE5E71D7032DC00DB079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDEE5E81D7032DC00DB079F /* Build configuration list for PBXNativeTarget "H5JsBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDEE5E91D7032DC00DB079F /* Debug */,
+				4CDEE5EA1D7032DC00DB079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDEE5EB1D7032DC00DB079F /* Build configuration list for PBXNativeTarget "H5JsBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDEE5EC1D7032DC00DB079F /* Debug */,
+				4CDEE5ED1D7032DC00DB079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDEE5B51D7032DC00DB079F /* Project object */;
+}
