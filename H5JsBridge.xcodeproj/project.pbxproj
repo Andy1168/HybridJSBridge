@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4CDEE5C11D7032DC00DB079F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C01D7032DC00DB079F /* AppDelegate.swift */; };
-		4CDEE5C31D7032DC00DB079F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C21D7032DC00DB079F /* ViewController.swift */; };
 		4CDEE5C61D7032DC00DB079F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C41D7032DC00DB079F /* Main.storyboard */; };
 		4CDEE5C81D7032DC00DB079F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C71D7032DC00DB079F /* Assets.xcassets */; };
 		4CDEE5CB1D7032DC00DB079F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDEE5C91D7032DC00DB079F /* LaunchScreen.storyboard */; };
 		4CDEE5D61D7032DC00DB079F /* H5JsBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5D51D7032DC00DB079F /* H5JsBridgeTests.swift */; };
 		4CDEE5E11D7032DC00DB079F /* H5JsBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5E01D7032DC00DB079F /* H5JsBridgeUITests.swift */; };
+		4CDEE5F01D70337900DB079F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5EF1D70337900DB079F /* ViewController.swift */; };
+		4CDEE5F41D7034DF00DB079F /* YctWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5F31D7034DF00DB079F /* YctWebView.swift */; };
+		4CDEE5F81D7060E800DB079F /* JsBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEE5F71D7060E800DB079F /* JsBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		4CDEE5BD1D7032DC00DB079F /* H5JsBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H5JsBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDEE5C01D7032DC00DB079F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CDEE5C21D7032DC00DB079F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CDEE5C51D7032DC00DB079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CDEE5C71D7032DC00DB079F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CDEE5CA1D7032DC00DB079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		4CDEE5DC1D7032DC00DB079F /* H5JsBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H5JsBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDEE5E01D7032DC00DB079F /* H5JsBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H5JsBridgeUITests.swift; sourceTree = "<group>"; };
 		4CDEE5E21D7032DC00DB079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDEE5EF1D70337900DB079F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CDEE5F31D7034DF00DB079F /* YctWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YctWebView.swift; sourceTree = "<group>"; };
+		4CDEE5F71D7060E800DB079F /* JsBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		4CDEE5BF1D7032DC00DB079F /* H5JsBridge */ = {
 			isa = PBXGroup;
 			children = (
+				4CDEE5F11D7034C500DB079F /* model */,
+				4CDEE5F21D7034C500DB079F /* view */,
+				4CDEE5EE1D70337900DB079F /* ctrl */,
 				4CDEE5C01D7032DC00DB079F /* AppDelegate.swift */,
-				4CDEE5C21D7032DC00DB079F /* ViewController.swift */,
 				4CDEE5C41D7032DC00DB079F /* Main.storyboard */,
 				4CDEE5C71D7032DC00DB079F /* Assets.xcassets */,
 				4CDEE5C91D7032DC00DB079F /* LaunchScreen.storyboard */,
@@ -123,6 +129,30 @@
 				4CDEE5E21D7032DC00DB079F /* Info.plist */,
 			);
 			path = H5JsBridgeUITests;
+			sourceTree = "<group>";
+		};
+		4CDEE5EE1D70337900DB079F /* ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5EF1D70337900DB079F /* ViewController.swift */,
+			);
+			path = ctrl;
+			sourceTree = "<group>";
+		};
+		4CDEE5F11D7034C500DB079F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4CDEE5F21D7034C500DB079F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4CDEE5F31D7034DF00DB079F /* YctWebView.swift */,
+				4CDEE5F71D7060E800DB079F /* JsBridge.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDEE5C31D7032DC00DB079F /* ViewController.swift in Sources */,
+				4CDEE5F41D7034DF00DB079F /* YctWebView.swift in Sources */,
+				4CDEE5F01D70337900DB079F /* ViewController.swift in Sources */,
 				4CDEE5C11D7032DC00DB079F /* AppDelegate.swift in Sources */,
+				4CDEE5F81D7060E800DB079F /* JsBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
